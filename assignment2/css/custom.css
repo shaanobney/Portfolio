@@ -1,1 +1,39 @@
-/* your styles go here */
+/*/* your styles go here */
+#portfolio {
+	margin-top: 5%;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+
+  .port-overlay {
+    width: 90.6%;
+    font-size: 1.24em;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+
+  .port-overlay {
+    width: 88%;
+    font-size: .916em;
+}
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 767px) {
+
+  .port-overlay {
+    width: 88%;
+    font-size: .916em;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
+
+  .port-overlay {
+    width: 95.3%;
+}
+
+}
