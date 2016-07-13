@@ -4,7 +4,6 @@ $(function () {
     sticky();
     utils();
     map();
-    demo();
 
 });
 
