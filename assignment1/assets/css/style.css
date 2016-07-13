@@ -287,7 +287,7 @@ input[type=submit] {
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media screen (min-width: 320px) and (max-width: 640px) {
 	#masthead {
 		position: relative;
 	}
