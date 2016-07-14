@@ -30,7 +30,9 @@
     width: 88%;
     font-size: .916em;
 }
-
+  #portfolio {
+    padding: 60px 0 25% 0;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 767px) {
