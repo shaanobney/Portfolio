@@ -1,6 +1,18 @@
 /*/* your styles go here */
 #portfolio {
-	margin-top: 5%;
+  margin-top: 10%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+    to {
+      margin-left: -7.8%;
+      width: 100%;
+    }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
@@ -24,16 +36,27 @@
 @media screen and (min-width: 641px) and (max-width: 767px) {
 
   .port-overlay {
-    width: 88%;
-    font-size: .916em;
-}
+    width: 84%;
+    font-size: 1.916em;
+    left: 7.8%;
+    width: 84.6%;
+    background: transparent;
+    border: transparent;
+    color: #009acd;
+    text-shadow: 2px 2px white;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
 
 }
 
 @media screen and (min-width: 480px) and (max-width: 640px) {
 
   .port-overlay {
-    width: 95.3%;
+    width: 95%;
+    left: 2.5%;
 }
 
 }
